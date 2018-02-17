@@ -50,6 +50,8 @@ export default class Calculator extends Component {
       input = this.state.input + e.key;
     } else if ((key === keys.backspace || key === keys.del) && this.state.input.length) {
       input = this.state.input.slice(0, -1);
+    } else if (key === keys.enter) {
+      this.calculate();
     }
 
     if (input !== null) {

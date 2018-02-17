@@ -1,5 +1,6 @@
 {
   "name": "react-calculator",
+  "homepage": "https://bullgare.github.io/demo-react-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
